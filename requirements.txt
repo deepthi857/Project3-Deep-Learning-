@@ -1,0 +1,9 @@
+pyspark==3.5.1
+tensorflow==2.15.1
+tensorflow-recommenders==0.7.3
+pandas
+pyarrow
+redis
+fastapi
+uvicorn
+httpx

@@ -1,0 +1,6 @@
+data/
+artifacts/
+*.zip
+*.csv
+*.ipynb
+__pycache__/
