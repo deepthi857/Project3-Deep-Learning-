@@ -1,0 +1,19 @@
+# Python virtual environments
+.venv/
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Generated and processed datasets
+data/processed/
+
+# Raw datasets
+*.csv
+*.parquet
+
+# IDE files
+.vscode/
+.idea/
+
