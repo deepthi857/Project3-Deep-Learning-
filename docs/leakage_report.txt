@@ -1,0 +1,15 @@
+validation window = last 7 days up to 2020-09-22
+--- nulls in train ---
+{'customer_id': 0, 'article_id': 0, 'age_bucket': 0, 'club_member_status': 0, 'fashion_news_frequency': 0, 'dow': 0, 'month': 0, 'history': 0, 'user_recency': 0, 'product_type_name': 0, 'colour_group_name': 0, 'department_name': 0, 'garment_group_name': 0, 'item_pop_log': 0}
+--- nulls in val ---
+{'customer_id': 0, 'article_id': 0, 'age_bucket': 0, 'club_member_status': 0, 'fashion_news_frequency': 0, 'dow': 0, 'month': 0, 'history': 0, 'user_recency': 0, 'product_type_name': 0, 'colour_group_name': 0, 'department_name': 0, 'garment_group_name': 0, 'item_pop_log': 0}
+val rows with unseen users %: 31.57
+val rows with unseen items %: 4.51
+train rows with empty history %: 14.92
++------------------+--------------------+-----------------+
+| avg(item_pop_log)|stddev(item_pop_log)|max(item_pop_log)|
++------------------+--------------------+-----------------+
+|3.1675870418877494|  1.7332433389811113|         7.090077|
++------------------+--------------------+-----------------+
+
+LEAKAGE CHECK DONE (history uses prior rows only; popularity uses previous week only)
