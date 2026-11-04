@@ -1,0 +1,74 @@
+{
+  "user_tower": {
+    "customer_id": {
+      "type": "categorical",
+      "vocab_size": 489553,
+      "embedding_dim": 64
+    },
+    "age_bucket": {
+      "type": "categorical",
+      "vocab_size": 7,
+      "embedding_dim": 16
+    },
+    "club_member_status": {
+      "type": "categorical",
+      "vocab_size": 4,
+      "embedding_dim": 16
+    },
+    "fashion_news_frequency": {
+      "type": "categorical",
+      "vocab_size": 3,
+      "embedding_dim": 16
+    },
+    "dow": {
+      "type": "categorical",
+      "vocab_size": 7,
+      "embedding_dim": 16
+    },
+    "month": {
+      "type": "categorical",
+      "vocab_size": 12,
+      "embedding_dim": 16
+    },
+    "history": {
+      "type": "sequence(article_id)",
+      "pooling": "mean",
+      "length": 10
+    },
+    "user_recency": {
+      "type": "numeric",
+      "transform": "log1p(days)"
+    }
+  },
+  "item_tower": {
+    "article_id": {
+      "type": "categorical",
+      "vocab_size": 40772,
+      "embedding_dim": 64
+    },
+    "product_type_name": {
+      "type": "categorical",
+      "vocab_size": 124,
+      "embedding_dim": 16
+    },
+    "colour_group_name": {
+      "type": "categorical",
+      "vocab_size": 50,
+      "embedding_dim": 16
+    },
+    "department_name": {
+      "type": "categorical",
+      "vocab_size": 238,
+      "embedding_dim": 16
+    },
+    "garment_group_name": {
+      "type": "categorical",
+      "vocab_size": 21,
+      "embedding_dim": 16
+    },
+    "item_pop_log": {
+      "type": "numeric",
+      "transform": "log1p(prev-week purchases)"
+    }
+  }
+}
