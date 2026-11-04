@@ -1,0 +1,14 @@
+transactions rows: 3386963
+--- nulls in transactions ---
+{'t_dat': 0, 'customer_id': 0, 'article_id': 0, 'price': 0, 'sales_channel_id': 0}
+customers rows: 1371980
+--- nulls in customers ---
+{'customer_id': 0, 'age_bucket': 0, 'club_member_status': 0, 'fashion_news_frequency': 0, 'is_cold_user': 0}
+articles rows: 105542
+--- nulls in articles ---
+{'article_id': 0, 'product_type_name': 0, 'colour_group_name': 0, 'department_name': 0, 'garment_group_name': 0, 'is_cold_item': 0}
+date range: 2020-07-01 -> 2020-09-22
+exact duplicate rows in tx: 283266
+cold users %: 74.83
+cold items %: 74.48
+DATA QUALITY OK
