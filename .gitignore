@@ -1,6 +1,21 @@
+# Project data and generated artifacts
 data/
 artifacts/
-*.zip
+
+# Raw and generated files
 *.csv
+*.parquet
+*.zip
 *.ipynb
+
+# Python virtual environments
+.venv/
+venv/
+
+# Python cache files
 __pycache__/
+*.pyc
+
+# IDE files
+.vscode/
+.idea/
