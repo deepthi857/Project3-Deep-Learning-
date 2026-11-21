@@ -1,0 +1,10 @@
+# Week 3 Day 15: Redis feature store / cache.  Run: docker compose -f recsys/week3/docker-compose.yml up -d
+services:
+  redis:
+    image: redis:7
+    ports: ["6379:6379"]
+    command: ["redis-server", "--save", "60", "1000"]
+    volumes: ["redis-data:/data"]
+volumes:
+  redis-data:
+
