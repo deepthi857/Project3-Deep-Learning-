@@ -1,4 +1,3 @@
-"""Week 2 Day 10: tf.data pipeline."""
 import pandas as pd
 import tensorflow as tf
 from training.model import USER_CATS, ITEM_CATS

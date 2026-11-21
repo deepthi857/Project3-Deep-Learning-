@@ -1,4 +1,3 @@
-"""Week 1 Day 2-3: data-quality gate. Run: python -m recsys.week1.data_quality_check"""
 from pyspark.sql import functions as F
 from recsys.week1.config import get_spark, PROCESSED
 from recsys.week1.utils import null_report

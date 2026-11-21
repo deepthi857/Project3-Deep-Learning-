@@ -1,4 +1,3 @@
-"""Week 2 Day 14: export L2-normalised user/item embeddings for serving."""
 import json
 import numpy as np
 import pandas as pd

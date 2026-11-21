@@ -1,4 +1,3 @@
-"""Week 1 Day 7: write artifacts/feature_spec.json from vocab.json."""
 import json
 from recsys.week1.config import ARTIFACTS
 

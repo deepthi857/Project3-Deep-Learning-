@@ -1,4 +1,3 @@
-"""Week 1 Day 7: build vocabularies for embedding layers -> artifacts/vocab.json"""
 import json
 import pandas as pd
 

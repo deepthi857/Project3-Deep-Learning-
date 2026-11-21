@@ -1,4 +1,3 @@
-"""Week 2 Day 8-9: TwoTower retrieval model (towers come from Person 1 / Person 2)."""
 import tensorflow as tf
 import tensorflow_recommenders as tfrs
 

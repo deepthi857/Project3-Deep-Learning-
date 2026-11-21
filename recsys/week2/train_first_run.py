@@ -1,6 +1,3 @@
-"""Week 2 Day 11-12: training run + metrics.
-Run: python -m recsys.week2.train_first_run --epochs 3
-"""
 import argparse
 import json
 import tensorflow as tf

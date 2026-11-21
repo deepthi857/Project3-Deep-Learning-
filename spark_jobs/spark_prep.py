@@ -1,6 +1,3 @@
-"""Week 1 (Day 1-3): clean raw H&M data, handle missing values, flag cold-start.
-Run: spark-submit spark_jobs/spark_prep.py 12   (12 = last N weeks to keep)
-"""
 import sys
 from pyspark.sql import SparkSession, functions as F
 from pyspark.sql.types import (StructType, StructField, DateType, StringType,
@@ -18,14 +15,10 @@ tx_schema = StructType([
     StructField("sales_channel_id", IntegerType())])
 tx = spark.read.csv(f"{RAW}/transactions_train.csv", header=True, schema=tx_schema)
 cust = spark.read.csv(f"{RAW}/customers.csv", header=True, inferSchema=True)
-art = spark.read.csv(f"{RAW}/articles.csv", header=True)  # all strings
-
-# ---- transactions: drop bad rows, keep last N weeks (huge data -> sample by time)
+art = spark.read.csv(f"{RAW}/articles.csv", header=True)  
 tx = tx.dropna(subset=["t_dat", "customer_id", "article_id"]).filter(F.col("price") > 0)
 max_date = tx.agg(F.max("t_dat")).first()[0]
 tx = tx.filter(F.col("t_dat") > F.date_sub(F.lit(max_date), WEEKS * 7))
-
-# ---- customers: missing values
 median_age = cust.approxQuantile("age", [0.5], 0.01)[0]
 cust = (cust
     .withColumn("age", F.coalesce("age", F.lit(median_age)))
@@ -36,8 +29,6 @@ cust = (cust
          .otherwise("65+"))
     .withColumn("club_member_status", F.upper(F.coalesce("club_member_status", F.lit("UNKNOWN"))))
     .withColumn("fashion_news_frequency", F.upper(F.coalesce("fashion_news_frequency", F.lit("NONE")))))
-
-# ---- cold-start flags (users/items with very little history)
 u_cnt = tx.groupBy("customer_id").count().withColumnRenamed("count", "u_cnt")
 i_cnt = tx.groupBy("article_id").count().withColumnRenamed("count", "i_cnt")
 cust = (cust.join(u_cnt, "customer_id", "left")
