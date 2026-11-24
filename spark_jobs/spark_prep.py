@@ -7,7 +7,7 @@ RAW, OUT = "data/raw", "data/processed"
 WEEKS = int(sys.argv[1]) if len(sys.argv) > 1 else 12
 
 spark = (SparkSession.builder.appName("hm-prep")
-         .config("spark.driver.memory", "8g").getOrCreate())
+         .config("spark.driver.memory", "4g").getOrCreate())
 
 tx_schema = StructType([
     StructField("t_dat", DateType()), StructField("customer_id", StringType()),

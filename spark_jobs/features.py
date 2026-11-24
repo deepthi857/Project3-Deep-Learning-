@@ -5,7 +5,7 @@ P, OUT = "data/processed", "data/features"
 TRAIN_SAMPLE_FRAC = 0.1   
 
 spark = (SparkSession.builder.appName("hm-features")
-         .config("spark.driver.memory", "8g").getOrCreate())
+         .config("spark.driver.memory", "4g").getOrCreate())
 tx = spark.read.parquet(f"{P}/transactions")
 cust = spark.read.parquet(f"{P}/customers")
 art = spark.read.parquet(f"{P}/articles")
