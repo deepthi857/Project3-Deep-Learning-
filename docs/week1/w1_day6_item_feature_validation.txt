@@ -1,0 +1,23 @@
+item table: 40,772 rows
+
+nulls per column:
+article_id            0
+product_type_name     0
+colour_group_name     0
+department_name       0
+garment_group_name    0
+item_pop_log          0
+
+item_pop_log summary:
+count    40772.000
+mean         0.778
+std          1.155
+min          0.000
+25%          0.000
+50%          0.000
+75%          1.099
+max          6.749
+train_sample: rows whose item is missing from the item table: 0.00%
+val: rows whose item is missing from the item table: 0.00%
+
+ITEM FEATURES OK

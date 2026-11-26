@@ -1,0 +1,48 @@
+articles: 105,542 rows, 6 columns
+
+unique values per column:
+  article_id: 105,542
+  product_type_name: 131
+  colour_group_name: 50
+  department_name: 250
+  garment_group_name: 21
+  is_cold_item: 2
+
+top 10 product_type_name:
+product_type_name
+Trousers    11169
+Dress       10362
+Sweater      9302
+T-shirt      7904
+Top          4155
+Blouse       3979
+Jacket       3940
+Shorts       3939
+Shirt        3405
+Vest top     2991
+
+top 10 colour_group_name:
+colour_group_name
+Black             22670
+Dark Blue         12171
+White              9542
+Light Pink         5811
+Grey               4487
+Light Beige        3356
+Blue               3308
+Red                3056
+Light Blue         3012
+Greenish Khaki     2767
+
+top 10 garment_group_name:
+garment_group_name
+Jersey Fancy         21445
+Accessories          11519
+Jersey Basic          8126
+Knitwear              7490
+Under-, Nightwear     7441
+Trousers              6727
+Blouses               5838
+Shoes                 5145
+Dresses Ladies        4874
+Outdoor               4501

@@ -1,0 +1,16 @@
+weeks in data: 13, latest week starts 2020-09-21
+
+top 10 items in the latest week (with the previous week for comparison):
+article_id product_type_name colour_group_name  latest_week  previous_week
+0924243002           Sweater             Black          227            557
+0448509014          Trousers              Blue          186            435
+0751471001          Trousers             Black          180            483
+0866731001   Leggings/Tights             Black          173            472
+0918522001           Sweater         Off White          161            623
+0714790020          Trousers              Blue          155            430
+0930380001            Blouse      Light Orange          150            234
+0788575004          Trousers         Dark Blue          147            252
+0915529003           Sweater             Black          143            486
+0918292001   Leggings/Tights             Black          142            424
+
+The model feature item_pop_log = log(1 + purchases in the previous week).

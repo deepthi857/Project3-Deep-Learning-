@@ -1,0 +1,7 @@
+catalog items: 105,542
+items never bought in the window: 64,770 (61.37%)
+cold items (fewer than 5 purchases): 78,605 (74.48%)
+share of all purchases that involve cold items: 0.78%
+is_cold_item flag matches the count rule: True
+
+Handling: cold items still get a vector from their category, colour and department.

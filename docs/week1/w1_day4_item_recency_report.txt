@@ -1,0 +1,14 @@
+latest date in data: 2020-09-22
+items with at least one sale: 40,772
+first sale in the last 14 days: 2,169
+not sold in the last 28 days: 12,475
+
+       days_since_first_sale  days_since_last_sale
+count                40772.0               40772.0
+mean                    65.1                  20.7
+std                     23.7                  23.9
+min                      0.0                   0.0
+25%                     54.0                   1.0
+50%                     78.0                  10.0
+75%                     83.0                  35.0
+max                     83.0                  83.0

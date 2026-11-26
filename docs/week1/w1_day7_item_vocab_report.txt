@@ -1,0 +1,8 @@
+article_id: vocabulary 40,772 values, 40,772 unique in the item table
+product_type_name: vocabulary 124 values, 124 unique in the item table
+colour_group_name: vocabulary 50 values, 50 unique in the item table
+department_name: vocabulary 238 values, 238 unique in the item table
+garment_group_name: vocabulary 21 values, 21 unique in the item table
+
+validation purchases whose item is in the vocabulary: 100.00%
+Items outside the vocabulary map to a shared 'unknown' embedding.

@@ -1,0 +1,15 @@
+nulls per column:
+article_id            0
+product_type_name     0
+colour_group_name     0
+department_name       0
+garment_group_name    0
+is_cold_item          0
+
+duplicate article_id: 0
+'unknown' values in product_type_name: 0
+'unknown' values in colour_group_name: 0
+'unknown' values in department_name: 0
+'unknown' values in garment_group_name: 0
+
+ARTICLE CLEANING OK
