@@ -1,0 +1,18 @@
+Top 15 product types in validation (baseline vs. embedding coverage):
+                   val_purchases  emb_cov_pct  base_top10_pct  base_top100_pct
+product_type_name                                                             
+Trousers                   43058        100.0            4.49            14.46
+Sweater                    33784        100.0            2.68            11.54
+Dress                      20582        100.0            0.00             4.19
+Top                        17723        100.0            0.00             4.25
+T-shirt                    14766        100.0            1.51            13.94
+Blouse                     11869        100.0            0.00             8.96
+Bra                         9981        100.0            0.00             1.97
+Shirt                       9798        100.0            0.00            11.00
+Leggings/Tights             9168        100.0            5.32            23.71
+Underwear bottom            9158        100.0            0.00             3.80
+Jacket                      9073        100.0            0.00             1.15
+Cardigan                    8035        100.0            1.39            25.55
+Hoodie                      7708        100.0            0.00            16.09
+Skirt                       6440        100.0            0.00             0.00
+Blazer                      6377        100.0            4.34            21.91
