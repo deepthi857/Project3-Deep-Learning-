@@ -1,0 +1,16 @@
+candidate items: 40,772
+validation purchases whose item is a candidate: 100.00%
+(this is the best possible score, since the model can only recommend candidate items)
+
+candidates by garment group (top 10):
+garment_group_name
+Jersey Fancy         7398
+Accessories          4227
+Under-, Nightwear    3092
+Jersey Basic         3055
+Trousers             3040
+Blouses              3027
+Dresses Ladies       2411
+Knitwear             2359
+Shoes                1848
+Swimwear             1597

@@ -1,0 +1,11 @@
+baseline: recommend the 100 most popular items of the 4 weeks before the validation week
+validation purchases: 266,364
+
+top-K      popularity baseline     two-tower model
+1                        0.22%               0.18%
+5                        0.84%               0.88%
+10                       1.48%               1.35%
+50                       5.44%               3.93%
+100                      9.43%               6.24%
+
+The model score uses a 50,000-row validation sample; the baseline uses all validation rows.

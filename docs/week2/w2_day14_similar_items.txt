@@ -1,0 +1,21 @@
+
+item 0598515024: Underwear bottom, Light Grey, Under-, Nightwear
+   0.726  0662369064: Underwear bottom, Light Blue, Under-, Nightwear
+   0.721  0688728001: Underwear bottom, Black, Under-, Nightwear
+   0.712  0426199027: Underwear bottom, Light Grey, Under-, Nightwear
+   0.703  0719957018: Underwear bottom, Dark Blue, Under-, Nightwear
+   0.703  0768739003: Underwear bottom, Dark Red, Under-, Nightwear
+
+item 0823791002: Blazer, Green, Dressed
+   0.617  0835851004: Blouse, Greenish Khaki, Blouses
+   0.616  0616543006: Top, White, Jersey Fancy
+   0.579  0815308003: Sweater, Black, Jersey Fancy
+   0.579  0764554005: Blouse, White, Blouses
+   0.570  0892111001: Top, Green, Jersey Fancy
+
+item 0712296001: T-shirt, White, Jersey Fancy
+   0.817  0615054001: T-shirt, White, Jersey Fancy
+   0.805  0642629001: Top, White, Jersey Fancy
+   0.798  0598795007: T-shirt, White, Jersey Fancy
+   0.797  0708472001: Vest top, Dark Blue, Jersey Fancy
+   0.785  0844734001: T-shirt, White, Jersey Fancy

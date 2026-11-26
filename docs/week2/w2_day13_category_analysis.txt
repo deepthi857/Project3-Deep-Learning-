@@ -1,0 +1,16 @@
+validation purchases by garment group (popularity top-100 baseline):
+
+                    purchases  share_of_purchases_%  baseline_hit_%
+garment_group_name                                                 
+Jersey Fancy            40173                 15.08            8.08
+Knitwear                35350                 13.27           18.61
+Jersey Basic            30498                 11.45           10.75
+Trousers                29321                 11.01           16.05
+Under-, Nightwear       27392                 10.28            1.99
+Blouses                 22994                  8.63            9.32
+Accessories             14405                  5.41            0.00
+Dresses Ladies          12173                  4.57            2.00
+Trousers Denim          11915                  4.47           10.87
+Outdoor                  9001                  3.38            1.16
+Socks and Tights         7134                  2.68           13.50
+Dressed                  6223                  2.34           22.45

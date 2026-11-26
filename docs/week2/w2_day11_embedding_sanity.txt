@@ -1,0 +1,5 @@
+item vectors: (40772, 64), item ids: 40,772, item table rows: 40,772
+NaN values: 0
+vector length: min 1.000, mean 1.000, max 1.000 (about 1 means L2-normalised)
+
+ITEM EMBEDDINGS OK

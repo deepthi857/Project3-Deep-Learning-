@@ -1,0 +1,8 @@
+article_id embedding               2,609,472
+product_type_name embedding            2,000
+colour_group_name embedding              816
+department_name embedding              3,824
+garment_group_name embedding             352
+Dense(129 -> 128)                     16,640
+Dense(128 -> 64)                       8,256
+TOTAL                              2,641,360
